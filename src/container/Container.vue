@@ -1,7 +1,7 @@
 <template>
 <div class="c-app">
-    <Sidebar />
     <Header />
+     <Sidebar />
     <div class="c-body">
         <main class="c-main">
             <router-view></router-view>

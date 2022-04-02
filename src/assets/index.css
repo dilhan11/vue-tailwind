@@ -3,3 +3,26 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+@layer components {
+  .card {
+    background-color: theme('colors.white');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.6');
+    box-shadow: theme('boxShadow.md');
+  }
+
+  /* ... */
+}
+
+btn {
+  @apply shadow-md py-3 px-6 rounded-md transition duration-300;
+}
+
+.btn-purple {
+  @apply bg-bookmark-purple text-white;
+}
+
+.btn-white {
+  @apply bg-bookmark-white;
+}
